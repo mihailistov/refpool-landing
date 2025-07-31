@@ -70,7 +70,7 @@ export default function Investors() {
         {/* Solution */}
         <section className="section bg-gray-50">
           <div className="mx-auto container-tight px-4">
-            <h2 className="h2 mb-8 text-center">Our Solution: Crypto-Native Infrastructure</h2>
+            <h2 className="h2 mb-8 text-center">Our Solution: Innovative Infrastructure</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="card">
                 <div className="text-lg font-semibold mb-2">Launch in Minutes</div>

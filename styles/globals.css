@@ -102,27 +102,32 @@ html, body {
 
 /* Enhanced buttons */
 .btn {
-  @apply inline-flex items-center justify-center rounded-xl px-6 py-3 text-sm font-medium border transition-all duration-300 transform hover:scale-105;
+  @apply inline-flex items-center justify-center rounded-2xl px-6 py-3 text-sm font-medium border transition-all duration-300 transform hover:scale-[1.02];
+  letter-spacing: -0.01em;
 }
 
 .btn-primary {
   @apply border-transparent text-white relative overflow-hidden;
   background: linear-gradient(135deg, #0ea5e9 0%, #d946ef 100%);
-  box-shadow: 0 4px 15px rgba(14,165,233,0.4);
+  box-shadow: 0 4px 20px rgba(14,165,233,0.25), 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .btn-primary:hover {
-  box-shadow: 0 6px 20px rgba(14,165,233,0.6);
-  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(14,165,233,0.4), 0 2px 8px rgba(0,0,0,0.15);
+  transform: translateY(-1px) scale(1.02);
 }
 
 .btn-secondary {
-  @apply border-gray-300 bg-white text-gray-900 hover:bg-gray-50;
+  @apply border-gray-200 bg-white/80 text-gray-900 hover:bg-gray-50/90;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.1);
 }
 
 .btn-secondary:hover {
-  border-color: #7dd3fc;
+  border-color: #cbd5e1;
   color: #0284c7;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.06);
+  transform: translateY(-1px) scale(1.02);
 }
 
 .btn-accent {
