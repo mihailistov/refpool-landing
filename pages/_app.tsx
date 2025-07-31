@@ -8,18 +8,18 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>refpool — Crypto‑Native Affiliate Marketplace</title>
+        <title>refpool — Scale Your Marketing, Reward Top Creators</title>
         <meta
           name="description"
-          content="Fund campaigns with a credit card, pay affiliates in USDC. Wallet‑native affiliate marketplace for brands and creators."
+          content="Launch campaigns that drive real results. Reward your best affiliates instantly with crypto payouts. Scale what works globally."
         />
-        <meta property="og:title" content="refpool — Crypto‑Native Affiliate Marketplace" />
-        <meta property="og:description" content="Fund with card, pay in USDC. Wallet‑native affiliate marketplace." />
+        <meta property="og:title" content="refpool — Scale Your Marketing, Reward Top Creators" />
+        <meta property="og:description" content="Launch campaigns that drive real results. Reward affiliates instantly with crypto payouts." />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/logo.svg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="refpool — Crypto‑Native Affiliate Marketplace" />
-        <meta name="twitter:description" content="Fund with card, pay in USDC. Wallet‑native affiliate marketplace." />
+        <meta name="twitter:title" content="refpool — Scale Your Marketing, Reward Top Creators" />
+        <meta name="twitter:description" content="Launch campaigns that drive real results. Reward affiliates instantly with crypto payouts." />
         <meta name="twitter:image" content="/logo.svg" />
         {/* Analytics (replace with your own) */}
         {/* <script defer data-domain="yourdomain.com" src="https://plausible.io/js/script.js"></script> */}
