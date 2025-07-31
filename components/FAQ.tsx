@@ -5,14 +5,14 @@ import { useRef, useState } from 'react';
 
 const faqs = [
   {
-    q: 'How is refpool different than other affiliate services?',
-    a: "We're the only platform with instant payouts, AI-based fraud protection, and global reach without payment barriers. No contracts, no delays, no geographic limits.",
+    q: 'How is this different vs. similar services?',
+    a: "• Instant payouts - creators get instant gratification\n• Global reach without logistical barriers\n• Brands only pay when they make real sales\n• No contracts or lengthy negotiations required\n• AI-powered fraud protection stops losses",
     icon: '🚀',
     color: 'primary',
   },
   {
     q: 'Do I need crypto to get started?',
-    a: "No. Brands can fund campaigns with a credit card. Creators get paid in USDC but don't need any crypto knowledge.",
+    a: "No. Brands can fund campaigns with a credit card using Stripe to USDC. Creators get paid in USDC but don't need any crypto knowledge. Bring your wallet or we'll provide you with one.",
     icon: '💳',
     color: 'primary',
   },
@@ -23,6 +23,12 @@ const faqs = [
     color: 'secondary',
   },
   {
+    q: 'How do I withdraw funds?',
+    a: 'You can easily convert USDC to cash using popular exchanges like Coinbase, Kraken, Binance, WealthSimple Crypto, or Gemini. Tax declaration is your responsibility.',
+    icon: '💰',
+    color: 'warning',
+  },
+  {
     q: 'How do you prevent fake clicks?',
     a: 'We track real user behavior and verify conversions. Suspicious activity gets flagged before you pay for it.',
     icon: '🛡️',
@@ -30,15 +36,21 @@ const faqs = [
   },
   {
     q: 'Do creators need to verify identity?',
-    a: 'No KYC required for creators to receive payouts. Brands may need verification depending on campaign size.',
+    a: 'No KYC required for creators to receive payouts under certain limits. Brands may need verification depending on campaign size.',
     icon: '🔒',
     color: 'warning',
   },
   {
-    q: 'Can I run this on my own servers?',
+    q: 'Can my brand white-label this solution?',
     a: "We're building a self-hosted version for large enterprises. Contact us if you're interested.",
     icon: '🏢',
     color: 'primary',
+  },
+  {
+    q: "What's the minimum payout amount for creators?",
+    a: "There's no minimum payout threshold. Creators can withdraw their earnings instantly, whether it's $1 or $1000. Every conversion gets paid out immediately.",
+    icon: "💸",
+    color: "secondary"
   },
 ];
 
@@ -203,7 +215,7 @@ export default function FAQ() {
                     transition={{ duration: 0.3, ease: 'easeInOut' }}
                     className='overflow-hidden'
                   >
-                    <p className='text-gray-600 leading-relaxed pl-12 pb-2'>
+                    <p className="text-gray-600 leading-relaxed pl-12 pb-2 whitespace-pre-line">
                       {faq.a}
                     </p>
                   </motion.div>
