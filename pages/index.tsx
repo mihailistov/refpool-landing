@@ -7,6 +7,7 @@ import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Waitlist from "@/components/Waitlist";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,11 +24,9 @@ export default function Home() {
       <footer className="border-t border-gray-200">
         <div className="mx-auto container-tight px-4 py-10 flex flex-col md:flex-row gap-4 items-center justify-between">
           <div className="text-sm text-gray-500">© {new Date().getFullYear()} refpool. All rights reserved.</div>
-          {/* <div className="flex items-center gap-4 text-sm">
-            <a className="nav-link" href="#">Terms</a>
-            <a className="nav-link" href="#">Privacy</a>
-            <a className="nav-link" href="#">Contact</a>
-          </div> */}
+          <div className="flex items-center gap-4 text-sm">
+            <Link href="/investors" className="nav-link">Investors</Link>
+          </div>
         </div>
       </footer>
     </main>

@@ -19,7 +19,7 @@ export default function Nav() {
         </nav>
 
         {/* Call-to-action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 shrink-0">
+        <div className="flex flex-row sm:flex-row gap-2 sm:gap-3 shrink-0">
           {/* <a href="#waitlist" className="btn btn-secondary w-full sm:w-auto text-center">Waitlist</a> */}
           <a href="#cta" className="btn btn-primary w-full sm:w-auto text-center">Get early access</a>
         </div>
