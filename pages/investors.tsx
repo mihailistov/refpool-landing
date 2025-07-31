@@ -46,6 +46,7 @@ export default function Investors() {
               <div className="card shadow-soft">
                 <h3 className="text-xl font-semibold mb-4">Creators Don't Get Paid</h3>
                 <ul className="space-y-2 text-gray-600">
+                  <li>• Painful contract negotiations for each deal</li>
                   <li>• Complex application processes take weeks</li>
                   <li>• 67% of affiliates wait 30-90 days for payments</li>
                   <li>• $2.3B in unpaid commissions annually</li>
@@ -57,6 +58,7 @@ export default function Investors() {
                 <h3 className="text-xl font-semibold mb-4">Brands Waste Money on Fraud</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li>• Months to find and onboard quality creators</li>
+                  <li>• Difficult to determine ROI on contract negotiations</li>
                   <li>• $1.4B lost to affiliate fraud annually</li>
                   <li>• 23% of affiliate traffic is fraudulent</li>
                   <li>• Manual review processes delay campaigns</li>
@@ -70,14 +72,14 @@ export default function Investors() {
         {/* Solution */}
         <section className="section bg-gray-50">
           <div className="mx-auto container-tight px-4">
-            <h2 className="h2 mb-8 text-center">Our Solution: Innovative Infrastructure</h2>
+            <h2 className="h2 mb-8 text-center">Our Solution: Innovative & Simple</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="card">
                 <div className="text-lg font-semibold mb-2">Launch in Minutes</div>
                 <p className="text-gray-600">From startup to enterprise - go live faster than any competitor, locally or globally, with credit card funding.</p>
               </div>
               <div className="card">
-                <div className="text-lg font-semibold mb-2">Immediate Gratification</div>
+                <div className="text-lg font-semibold mb-2">Instant Gratification</div>
                 <p className="text-gray-600">Instant payouts, instant incentive for creators. USDC payments in seconds, not weeks. No banks, no delays.</p>
               </div>
               <div className="card">
