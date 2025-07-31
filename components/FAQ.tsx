@@ -5,6 +5,12 @@ import { useRef, useState } from 'react';
 
 const faqs = [
   {
+    q: "How is this different than any other affiliate marketing service?",
+    a: "We're the only platform with instant crypto payouts, zero-fraud AI protection, and global reach without payment barriers. No contracts, no delays, no geographic limits.",
+    icon: "🚀",
+    color: "primary"
+  },
+  {
     q: "Do I need crypto to get started?",
     a: "No. Brands can fund campaigns with a credit card. Creators get paid in USDC but don't need any crypto knowledge.",
     icon: "💳",
