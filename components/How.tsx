@@ -1,8 +1,8 @@
 export default function How() {
   const steps = [
-    { title: "Instantly fund a campaign", desc: "Top up a budget via credit card or USDC. Set payout per conversion and end date. Watch your ROI grow in real-time." },
-    { title: "Affiliates share links", desc: "Creators join, get a unique link, and promote on socials. Live tracking shows clicks, conversions, and earnings as they happen." },
-    { title: "Automatic payouts", desc: "Approved conversions trigger instant payouts from the pool. Real-time analytics let you optimize campaigns on the fly." }
+    { title: "Fund big campaigns effortlessly", desc: "Top up massive budgets via credit card or USDC. Set high payouts per conversion and watch creators flock to promote your brand." },
+    { title: "Creators earn serious money", desc: "Join campaigns with real payouts, get your unique link, and watch your earnings multiply with every conversion you drive." },
+    { title: "Real incentive, instant payouts", desc: "The moment a conversion is approved, creators get paid instantly. No waiting, no excuses, just immediate rewards for results." }
   ];
 
   return (
