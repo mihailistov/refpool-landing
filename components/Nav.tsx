@@ -11,7 +11,7 @@ export default function Nav() {
         </Link>
 
         {/* Navigation */}
-        <nav className="hidden md:flex flex-1 justify-center items-center gap-x-8 text-sm">
+        <nav className="hidden md:flex flex-1 justify-center items-center gap-x-12 text-sm">
           <a href="#merchants" className="nav-link">For Brands</a>
           <a href="#affiliates" className="nav-link">For Affiliates</a>
           <a href="#how" className="nav-link">How it Works</a>
