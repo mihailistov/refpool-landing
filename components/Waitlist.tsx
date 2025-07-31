@@ -52,7 +52,7 @@ export default function Waitlist() {
               </div>
               <div className="md:col-span-1">
                 <label className="block text-sm font-medium mb-1">How will you use refpool? (optional)</label>
-                <input type="text" name="brand" className="w-full border rounded-lg px-3 py-2" placeholder="Marketing for brand @xyz..." />
+                <input type="text" name="description" className="w-full border rounded-lg px-3 py-2" placeholder="Marketing for brand @xyz..." />
               </div>
               <div className="md:col-span-3">
                 <button type="submit" className="btn btn-primary" disabled={loading}>

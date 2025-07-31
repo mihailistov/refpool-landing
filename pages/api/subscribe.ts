@@ -4,7 +4,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== "POST") return res.status(405).end();
 
-  const { email, role, wallet } = req.body;
+  const { email, role, description } = req.body;
 
   try {
     const response = await fetch("https://formcarry.com/s/s94h9e2O_BK", {
@@ -13,7 +13,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         "Content-Type": "application/json",
         Accept: "application/json"
       },
-      body: JSON.stringify({ email, role, wallet }),
+      body: JSON.stringify({ email, role, description }),
     });
 
     if (!response.ok) {
