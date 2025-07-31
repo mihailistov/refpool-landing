@@ -10,8 +10,8 @@ export default function ValueProps() {
   return (
     <section className="section bg-gray-50">
       <div className="mx-auto container-tight px-4">
-        <h2 className="h2 mb-2 text-center">Why brands & creators love refpool</h2>
-        <p className="p mb-8 text-center">Big results, zero hassle, instant trust. Everything you need to scale your influencer marketing.</p>
+        <h2 className="h2 mb-2 text-center">Why brands & creators love us</h2>
+        <p className="p mb-8 text-center  px-2 sm:px-0">Big results, zero hassle, instant trust. Everything you need to scale your influencer marketing.</p>
         <div className="grid md:grid-cols-3 gap-6">
           {items.map((it, i) => (
             <div key={i} className="card">

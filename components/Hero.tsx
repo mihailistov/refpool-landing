@@ -3,14 +3,14 @@ export default function Hero() {
     <section className="section gradient">
       <div className="mx-auto container-tight px-4 text-center">
         <div className="inline-flex items-center gap-2 mb-6">
-          <span className="badge">Instant Payouts</span>
-          <span className="badge">Real-Time Results</span>
-          <span className="badge">Global Scale</span>
+          <span className="badge bg-gray-50 text-gray-900 border-black">Instant Payouts</span>
+          <span className="badge bg-gray-50 text-gray-900 border-black">Real-Time Results</span>
+          <span className="badge bg-gray-50 text-gray-900 border-black">Global Scale</span>
         </div>
         <h1 className="h1 mb-6">Scale your marketing.<br/>Reward top creators.</h1>
         <p className="p max-w-2xl mx-auto">
-          Connecting <b>ambitious brands</b> with <b>high-performing influencers & creators</b>. Launch campaigns that drive <b>real results</b>,
-          <b>reward</b> your best creators <b>instantly</b> with crypto payouts, and <b>scale what works — globally</b>.
+          Connecting <b>ambitious brands</b> with <b>high-performing influencers</b>. Launch campaigns that drive <b>real results</b>,
+          motivate with <b>instant payouts</b>, and <b>scale what works — globally</b>.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
           <a href="#waitlist" className="btn btn-primary">Join the waitlist</a>
