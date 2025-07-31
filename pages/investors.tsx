@@ -46,6 +46,7 @@ export default function Investors() {
               <div className="card shadow-soft">
                 <h3 className="text-xl font-semibold mb-4">Creators Don't Get Paid</h3>
                 <ul className="space-y-2 text-gray-600">
+                  <li>• Complex application processes take weeks</li>
                   <li>• 67% of affiliates wait 30-90 days for payments</li>
                   <li>• $2.3B in unpaid commissions annually</li>
                   <li>• 43% abandon programs due to payment delays</li>
@@ -55,6 +56,7 @@ export default function Investors() {
               <div className="card shadow-soft">
                 <h3 className="text-xl font-semibold mb-4">Brands Waste Money on Fraud</h3>
                 <ul className="space-y-2 text-gray-600">
+                  <li>• Months to find and onboard quality creators</li>
                   <li>• $1.4B lost to affiliate fraud annually</li>
                   <li>• 23% of affiliate traffic is fraudulent</li>
                   <li>• Manual review processes delay campaigns</li>
@@ -80,11 +82,11 @@ export default function Investors() {
               </div>
               <div className="card">
                 <div className="text-lg font-semibold mb-2">Zero Fraud</div>
-                <p className="text-gray-600">Protecting brands through AI-powered fraud detection stops bad actors before they cost money.</p>
+                <p className="text-gray-600">Protecting brands & maximizing ROI through AI-powered fraud detection, stopping bad actors before they cost money.</p>
               </div>
               <div className="card">
                 <div className="text-lg font-semibold mb-2">Pay for Performance</div>
-                <p className="text-gray-600">Real-time analytics let brands optimize campaigns instantly and pay only for verified results.</p>
+                <p className="text-gray-600">Real-time dashboards enable brands to optimize & adjust strategies instantly, only pay for real results and big wins.</p>
               </div>
             </div>
           </div>
