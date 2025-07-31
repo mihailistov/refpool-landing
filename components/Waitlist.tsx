@@ -158,7 +158,7 @@ export default function Waitlist() {
                   className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-primary-500 focus:ring-2 focus:ring-primary-200 transition-all duration-300 bg-white"
                   required
                 >
-                  <option value="affiliate">🎨 Affiliate / Creator</option>
+                  <option value="creator">🎨 Creator / Influencer</option>
                   <option value="merchant">🏢 Brand / Merchant</option>
                   <option value="other">🤔 Other</option>
                 </select>
