@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: 'How fast do creators get paid?',
-    a: 'Instantly. Once a conversion is approved, creators receive their payout in seconds, not weeks.',
+    a: 'Instantly. Once a conversion is approved, creators receive their payout in minutes, not weeks.',
     icon: '⚡',
     color: 'secondary',
   },
