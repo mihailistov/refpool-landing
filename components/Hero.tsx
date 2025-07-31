@@ -7,7 +7,7 @@ export default function Hero() {
           <span className="badge bg-gray-100 text-gray-900 border-black">Real-Time Results</span>
           <span className="badge bg-gray-100 text-gray-900 border-black">Global Scale</span>
         </div>
-        <h1 className="h1 mb-6">Scale your marketing.<br/>Reward top creators.</h1>
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight mb-6 text-gradient">Scale your marketing.<br/>Reward top creators.</h1>
         <p className="p max-w-2xl mx-auto">
           Connecting <b>ambitious brands</b> with <b>high-performing influencers</b>. Launch campaigns that drive <b>real results</b>,
           motivate with <b>instant payouts</b>, and <b>scale what works — globally</b>.
