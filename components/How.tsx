@@ -1,6 +1,6 @@
 export default function How() {
   const steps = [
-    { title: "Fund big campaigns effortlessly", desc: "Top up massive budgets via credit card or USDC. Set high payouts per conversion and watch creators flock to promote your brand." },
+    { title: "Fund big campaigns effortlessly", desc: "Top up budgets infinitely via credit card or USDC. Set high payouts per conversion and watch creators flock to promote your brand." },
     { title: "Creators earn serious money", desc: "Join campaigns with real payouts, get your unique link, and watch your earnings multiply with every conversion you drive." },
     { title: "Real incentive, instant payouts", desc: "The moment a conversion is approved, creators get paid instantly. No waiting, no excuses, just immediate rewards for results." }
   ];
