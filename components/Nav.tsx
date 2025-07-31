@@ -12,16 +12,16 @@ export default function Nav() {
 
         {/* Navigation */}
         <nav className="hidden md:flex flex-1 justify-center items-center gap-x-12 text-sm">
-          <a href="#merchants" className="nav-link">For Brands</a>
-          <a href="#affiliates" className="nav-link">For Creators</a>
-          <a href="#how" className="nav-link">How it Works</a>
-          <a href="#pricing" className="nav-link">Pricing</a>
+          <a href="/#merchants" className="nav-link">For Brands</a>
+          <a href="/#affiliates" className="nav-link">For Creators</a>
+          <a href="/#how" className="nav-link">How it Works</a>
+          <a href="/#pricing" className="nav-link">Pricing</a>
         </nav>
 
         {/* Call-to-action Buttons */}
         <div className="flex flex-row sm:flex-row gap-2 sm:gap-3 shrink-0">
           <Link href="/investors" className="btn bg-gray-100 text-gray-600 border-gray-200 hover:bg-gray-200 w-full sm:w-auto text-center !text-xs !px-3 !py-1.5 sm:!text-sm sm:!px-6 sm:!py-3">Investors</Link>
-          <a href="#cta" className="btn btn-primary w-full sm:w-auto text-center !text-xs !px-3 !py-1.5 sm:!text-sm sm:!px-6 sm:!py-3">Get early access</a>
+          <a href="/#cta" className="btn btn-primary w-full sm:w-auto text-center !text-xs !px-3 !py-1.5 sm:!text-sm sm:!px-6 sm:!py-3">Get early access</a>
         </div>
       </div>
     </header>

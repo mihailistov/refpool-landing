@@ -196,7 +196,7 @@ export default function Splits() {
                   {/* CTA Button */}
                   <div className="mt-8">
                     <motion.a
-                      href="#waitlist"
+                      href="/#waitlist"
                       className={`btn ${feature.type === 'brands' ? 'btn-primary' : 'btn-accent'} w-full text-center`}
                       whileHover={{ scale: 1.02, y: -2 }}
                       whileTap={{ scale: 0.98 }}
