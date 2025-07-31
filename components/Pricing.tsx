@@ -2,8 +2,8 @@ export default function Pricing() {
   return (
     <section id='pricing' className='section bg-gray-50'>
       <div className='mx-auto container-tight px-4'>
-        <h2 className='h2 mb-2'>Early pricing</h2>
-        <p className='p mb-8'>Simple, transparent pricing during beta.</p>
+        <h2 className='h2 mb-2 text-center'>Early pricing</h2>
+        <p className='p mb-8 text-center'>Simple, transparent pricing during beta.</p>
         <div className='grid md:grid-cols-4 gap-6'>
           <div className='card'>
             <div className='badge mb-3'>Free</div>
