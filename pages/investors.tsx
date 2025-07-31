@@ -245,7 +245,7 @@ export default function Investors() {
               <p className="text-gray-600 mb-6">
                 SAFE note with 20% discount on Series A. Pro-rata rights included.
               </p>
-              <a href="mailto:investors@refpool.com" className="btn btn-primary">
+              <a href="mailto:investors@refpool.xyz" className="btn btn-primary">
                 Schedule Due Diligence Call
               </a>
             </div>
