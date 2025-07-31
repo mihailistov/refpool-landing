@@ -69,18 +69,22 @@ export default function Investors() {
         <section className="section bg-gray-50">
           <div className="mx-auto container-tight px-4">
             <h2 className="h2 mb-8 text-center">Our Solution: Crypto-Native Infrastructure</h2>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-4 gap-6">
               <div className="card">
-                <div className="text-lg font-semibold mb-2">Instant Payouts</div>
-                <p className="text-gray-600">USDC payments in seconds, not weeks. No banks, no delays.</p>
+                <div className="text-lg font-semibold mb-2">Launch in Minutes</div>
+                <p className="text-gray-600">From startup to enterprise - go live faster than any competitor, locally or globally, with credit card funding.</p>
+              </div>
+              <div className="card">
+                <div className="text-lg font-semibold mb-2">Immediate Gratification</div>
+                <p className="text-gray-600">Instant payouts, instant incentive for creators. USDC payments in seconds, not weeks. No banks, no delays.</p>
               </div>
               <div className="card">
                 <div className="text-lg font-semibold mb-2">Zero Fraud</div>
-                <p className="text-gray-600">AI-powered detection stops bad actors before they cost money.</p>
+                <p className="text-gray-600">Protecting brands through AI-powered fraud detection stops bad actors before they cost money.</p>
               </div>
               <div className="card">
-                <div className="text-lg font-semibold mb-2">Global Scale</div>
-                <p className="text-gray-600">Borderless payments to any wallet, anywhere in the world.</p>
+                <div className="text-lg font-semibold mb-2">Pay for Performance</div>
+                <p className="text-gray-600">Real-time analytics let brands optimize campaigns instantly and pay only for verified results.</p>
               </div>
             </div>
           </div>
@@ -153,12 +157,12 @@ export default function Investors() {
         {/* Competitive Advantage */}
         <section className="section">
           <div className="mx-auto container-tight px-4">
-            <h2 className="h2 mb-8 text-center">Unfair Competitive Advantages</h2>
+            <h2 className="h2 mb-8 text-center">Competitive Advantages</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
                 <div className="card shadow-soft">
-                  <h3 className="text-lg font-semibold mb-2">First-Mover in Crypto</h3>
-                  <p className="text-gray-600">Only platform offering instant crypto payouts at scale</p>
+                  <h3 className="text-lg font-semibold mb-2">Instant Crypto Payments</h3>
+                  <p className="text-gray-600">First platform to offer immediate payouts with cryptocurrency at scale</p>
                 </div>
                 <div className="card shadow-soft">
                   <h3 className="text-lg font-semibold mb-2">Network Effects</h3>
@@ -167,12 +171,12 @@ export default function Investors() {
               </div>
               <div className="space-y-6">
                 <div className="card shadow-soft">
-                  <h3 className="text-lg font-semibold mb-2">Technical Moat</h3>
-                  <p className="text-gray-600">Proprietary fraud detection and payment infrastructure</p>
+                  <h3 className="text-lg font-semibold mb-2">Real-Time Results</h3>
+                  <p className="text-gray-600">Brands see campaign performance instantly and only pay for verified conversions</p>
                 </div>
                 <div className="card shadow-soft">
-                  <h3 className="text-lg font-semibold mb-2">Global by Default</h3>
-                  <p className="text-gray-600">No geographic limitations unlike traditional platforms</p>
+                  <h3 className="text-lg font-semibold mb-2">Global Reach</h3>
+                  <p className="text-gray-600">No geographic barriers - reach creators worldwide without payment restrictions</p>
                 </div>
               </div>
             </div>

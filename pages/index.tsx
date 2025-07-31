@@ -23,7 +23,7 @@ export default function Home() {
       <Waitlist />
       <footer className="border-t border-gray-200">
         <div className="mx-auto container-tight px-4 py-10 flex flex-col md:flex-row gap-4 items-center justify-between">
-          <div className="text-sm text-gray-500">© {new Date().getFullYear()} refpool. All rights reserved.</div>
+          <div className="text-sm text-gray-500">© {new Date().getFullYear()} refpool.xyz. All rights reserved.</div>
           <div className="flex items-center gap-4 text-sm">
             <Link href="/investors" className="nav-link">Investors</Link>
           </div>

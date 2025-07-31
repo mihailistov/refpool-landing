@@ -7,7 +7,7 @@ export default function Nav() {
       <div className="mx-auto container-tight px-4 py-3 flex flex-wrap items-center justify-between gap-4 md:gap-6">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <Image src="/logo.svg" alt="RefPool" width={140} height={32} priority />
+          <Image src="/logo.svg" alt="refpool.xyz" width={140} height={32} priority />
         </Link>
 
         {/* Navigation */}

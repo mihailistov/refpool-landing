@@ -9,7 +9,7 @@ export default function Hero() {
         </div>
         <h1 className="h1 mb-6">Scale your marketing.<br/>Reward top creators.</h1>
         <p className="p max-w-2xl mx-auto">
-          refpool connects <b>ambitious brands</b> with <b>high-performing creators</b>. Launch campaigns that drive real results, 
+          Connecting <b>ambitious brands</b> with <b>high-performing creators</b>. Launch campaigns that drive real results, 
           reward your best affiliates <b>instantly</b> with crypto payouts, and <b>scale what works — globally</b>.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
