@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom minimal styles */
+:root {
+  --brand: #111827; /* neutral dark */
+}
+html, body {
+  height: 100%;
+}
+.gradient {
+  background: radial-gradient(1200px 600px at 10% -10%, rgba(99,102,241,0.15), transparent),
+              radial-gradient(800px 400px at 90% 10%, rgba(45,212,191,0.12), transparent);
+}
+.container-tight { max-width: 1100px; }
+.shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,0.06); }
+.card { @apply rounded-2xl border border-gray-200 p-6 bg-white; }
+.section { @apply py-16 md:py-24; }
+.h1 { @apply text-4xl md:text-6xl font-semibold tracking-tight; }
+.h2 { @apply text-2xl md:text-3xl font-semibold; }
+.p { @apply text-gray-600 leading-relaxed; }
+.btn { @apply inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-medium border; }
+.btn-primary { @apply border-transparent bg-black text-white hover:opacity-90; }
+.btn-secondary { @apply border-gray-300 bg-white text-gray-900 hover:bg-gray-50; }
+.nav-link { @apply text-sm text-gray-700 hover:text-gray-900; }
+.badge { @apply text-xs font-medium px-2 py-1 rounded-md bg-gray-100 text-gray-800; }
