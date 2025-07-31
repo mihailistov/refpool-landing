@@ -21,7 +21,7 @@ export default function Investors() {
               AI-based fraud protection, and global scale. Join us in building the infrastructure that powers 
               the next generation of performance marketing.
             </p>
-            <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+            <div className="grid md:grid-cols-4 gap-6 max-w-3xl mx-auto">
               <div className="card">
                 <div className="text-2xl font-bold text-cyan-400 mb-2">$12B</div>
                 <div className="text-sm">Total Addressable Market</div>
@@ -33,6 +33,10 @@ export default function Investors() {
               <div className="card">
                 <div className="text-2xl font-bold text-green-400 mb-2">$5M</div>
                 <div className="text-sm">Pre-Money Valuation</div>
+              </div>
+              <div className="card">
+                <div className="text-2xl font-bold text-orange-400 mb-2">900X</div>
+                <div className="text-sm">Potential Return (5-year)</div>
               </div>
             </div>
           </div>
