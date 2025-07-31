@@ -48,7 +48,7 @@ export default function Splits() {
         { text: "Pay with your credit card", icon: "💳" },
         { text: "Reward every sale or signup", icon: "🎯" },
         { text: "Set spending limits & deadlines", icon: "⏰" },
-        { text: "Download performance reports", icon: "📊" }
+        { text: "Real-time analytics & reporting", icon: "📊" }
       ],
       gradient: "from-primary-400 to-primary-600",
       bgGradient: "from-primary-50 to-blue-100",
