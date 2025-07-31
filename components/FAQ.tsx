@@ -255,7 +255,7 @@ export default function FAQ() {
             Still have questions? We'd love to help! 💬
           </p>
           <motion.a
-            href='#cta'
+            href='mailto:hello@refpool.xyz'
             className='btn btn-secondary text-lg px-8 py-4'
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
