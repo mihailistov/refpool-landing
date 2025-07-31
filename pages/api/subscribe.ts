@@ -7,7 +7,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   const { email, role, wallet } = req.body;
 
   try {
-    const response = await fetch("https://formcarry.com/s/abc123XYZ", {
+    const response = await fetch("https://formcarry.com/s/s94h9e2O_BK", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
