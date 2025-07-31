@@ -78,7 +78,7 @@ html, body {
     0 2px 8px rgba(34,197,94,0.06);
 }
 
-.section { @apply py-16 md:py-24; }
+.section { @apply py-12 md:py-24; }
 
 /* Typography */
 .h1 {
