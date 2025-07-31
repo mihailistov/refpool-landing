@@ -10,7 +10,7 @@ export default function Hero() {
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold tracking-tight mb-6 text-gradient">Scale your marketing.<br/>Reward top influencers.</h1>
         <p className="p max-w-2xl mx-auto">
           Connecting <b>ambitious brands</b> with <b>high-performing influencers</b>. Launch campaigns that drive <b>real results</b>,
-          motivate with <b>instant payouts</b>, and <b>scale what works — globally</b>.
+          motivate with <b>instant crypto payouts</b>, and <b>scale what works — globally</b>.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
           <a href="#waitlist" className="btn btn-primary">Join the waitlist</a>
