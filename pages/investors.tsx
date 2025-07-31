@@ -146,7 +146,7 @@ export default function Investors() {
               </div>
               <div className="card">
                 <h3 className="text-lg font-semibold mb-2">SaaS Subscriptions</h3>
-                <p className="text-gray-600 mb-3">$99-$1,500/month for advanced features</p>
+                <p className="text-gray-600 mb-3">Tiered from $0-$150/month, or $1,500 one-time for advanced users</p>
                 <div className="text-sm text-gray-500">12% of revenue</div>
               </div>
               <div className="card">
