@@ -202,7 +202,7 @@ export default function Splits() {
                       whileTap={{ scale: 0.98 }}
                       transition={{ type: "spring", stiffness: 400, damping: 10 }}
                     >
-                      {feature.type === 'brands' ? '🚀 Start Promoting' : '💰 Start Earning'}
+                      {feature.type === 'brands' ? '🚀 Launch a campaign' : '💰 Start earning'}
                     </motion.a>
                   </div>
                 </div>
