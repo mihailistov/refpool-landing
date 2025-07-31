@@ -18,7 +18,7 @@ export default function Investors() {
             <h1 className="h1 mb-6" style={{ lineHeight: '1.2' }}>$50k for 1% equity<br/>in the future of a $12B industry</h1>
             <p className="p max-w-2xl mx-auto mb-8">
               refpool is disrupting the $12B affiliate marketing industry with instant crypto payouts, 
-              zero-fraud protection, and global scale. Join us in building the infrastructure that powers 
+              AI-based fraud protection, and global scale. Join us in building the infrastructure that powers 
               the next generation of performance marketing.
             </p>
             <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">

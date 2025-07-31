@@ -6,7 +6,7 @@ import { useRef, useState } from 'react';
 const faqs = [
   {
     q: 'How is refpool different than other affiliate services?',
-    a: "We're the only platform with instant crypto payouts, zero-fraud AI protection, and global reach without payment barriers. No contracts, no delays, no geographic limits.",
+    a: "We're the only platform with instant payouts, AI-based fraud protection, and global reach without payment barriers. No contracts, no delays, no geographic limits.",
     icon: '🚀',
     color: 'primary',
   },
