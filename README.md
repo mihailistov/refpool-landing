@@ -1,4 +1,4 @@
-# RefPool — Crypto‑Native Affiliate Marketplace (Landing Page)
+# refpool — Crypto‑Native Affiliate Marketplace (Landing Page)
 
 A starter landing page built with **Next.js + Tailwind CSS**.
 

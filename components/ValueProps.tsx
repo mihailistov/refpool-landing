@@ -1,17 +1,17 @@
 export default function ValueProps() {
   const items = [
-    { title: "Wallet‑native", desc: "No passwords. Creators connect a wallet to receive payouts in USDC." },
-    { title: "Credit card friendly", desc: "Brands can fund campaigns with Stripe, converted to USDC credits." },
-    { title: "Fraud controls", desc: "HMAC‑signed events, device fingerprinting, and manual review tools." },
-    { title: "APIs & webhooks", desc: "Embed tracking via JS or server‑to‑server postbacks to verify conversions." },
-    { title: "Transparent payouts", desc: "Auditable payout logs and optional on‑chain escrow per campaign." },
-    { title: "Global by default", desc: "Borderless payouts, instant access for international creators." }
+    { title: "Instant payouts", desc: "Creators get paid in seconds, not weeks. No banks, no delays, no excuses." },
+    { title: "Launch in minutes", desc: "Fund campaigns with your credit card. Go from idea to live campaign instantly." },
+    { title: "Zero fraud headaches", desc: "Advanced protection stops fake clicks and bad actors before they cost you money." },
+    { title: "Track everything", desc: "See every click, conversion, and payout in real-time. Know exactly what's working." },
+    { title: "Guaranteed payments", desc: "Creators never worry about getting paid. Funds are secured and payouts are automatic." },
+    { title: "Scale anywhere", desc: "Reach creators worldwide. No borders, no limits, no complicated international payments." }
   ];
   return (
     <section className="section bg-gray-50">
       <div className="mx-auto container-tight px-4">
-        <h2 className="h2 mb-2">Why brands & creators love RefPool</h2>
-        <p className="p mb-8">Modern rails, fewer hurdles, better trust.</p>
+        <h2 className="h2 mb-2 text-center">Why brands & creators love refpool</h2>
+        <p className="p mb-8 text-center">Big results, zero hassle, instant trust.</p>
         <div className="grid md:grid-cols-3 gap-6">
           {items.map((it, i) => (
             <div key={i} className="card">

@@ -30,7 +30,7 @@ export default function Waitlist() {
             <div>
               <div className="badge mb-2">Early Access</div>
               <h3 className="text-xl font-semibold">Join the waitlist</h3>
-              <p className="p">Tell us who you are and how you plan to use RefPool.</p>
+              <p className="p">Tell us who you are and how you plan to use refpool.</p>
             </div>
           </div>
 
@@ -51,8 +51,8 @@ export default function Waitlist() {
                 <input type="email" name="email" className="w-full border rounded-lg px-3 py-2" placeholder="you@domain.com" required />
               </div>
               <div className="md:col-span-1">
-                <label className="block text-sm font-medium mb-1">Wallet (optional)</label>
-                <input type="text" name="wallet" className="w-full border rounded-lg px-3 py-2" placeholder="0x..." />
+                <label className="block text-sm font-medium mb-1">How will you use refpool? (optional)</label>
+                <input type="text" name="brand" className="w-full border rounded-lg px-3 py-2" placeholder="Marketing for brand @xyz..." />
               </div>
               <div className="md:col-span-3">
                 <button type="submit" className="btn btn-primary" disabled={loading}>
