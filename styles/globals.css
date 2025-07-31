@@ -17,6 +17,10 @@ html, body {
   font-family: 'Inter', system-ui, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Enhanced gradients */
 .gradient {
   background:
