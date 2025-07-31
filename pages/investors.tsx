@@ -97,7 +97,7 @@ export default function Investors() {
           <div className="mx-auto container-tight px-4">
             <h2 className="h2 mb-8 text-center">Massive Market Opportunity</h2>
             <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div>
+              <div className="px-2 sm:px-0">
                 <h3 className="text-xl font-semibold mb-4">Market Size & Growth</h3>
                 <ul className="space-y-3">
                   <li><strong>TAM:</strong> $12B affiliate marketing industry</li>
