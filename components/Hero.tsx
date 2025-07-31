@@ -3,9 +3,9 @@ export default function Hero() {
     <section className="section gradient">
       <div className="mx-auto container-tight px-4 text-center">
         <div className="inline-flex items-center gap-2 mb-6">
-          <span className="badge bg-gray-50 text-gray-900 border-black">Instant Payouts</span>
-          <span className="badge bg-gray-50 text-gray-900 border-black">Real-Time Results</span>
-          <span className="badge bg-gray-50 text-gray-900 border-black">Global Scale</span>
+          <span className="badge badge-primary bg-gray-50 text-gray-900 border-black">Instant Payouts</span>
+          <span className="badge badge-primary bg-gray-50 text-gray-900 border-black">Real-Time Results</span>
+          <span className="badge badge-primary bg-gray-50 text-gray-900 border-black">Global Scale</span>
         </div>
         <h1 className="h1 mb-6">Scale your marketing.<br/>Reward top creators.</h1>
         <p className="p max-w-2xl mx-auto">
