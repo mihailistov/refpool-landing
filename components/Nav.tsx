@@ -21,7 +21,7 @@ export default function Nav() {
         {/* Call-to-action Buttons */}
         <div className="flex flex-row sm:flex-row gap-2 sm:gap-3 shrink-0">
           <Link href="/investors" className="btn bg-gray-100 text-gray-600 border-gray-200 hover:bg-gray-200 w-full sm:w-auto text-center !text-xs !px-3 !py-1.5 sm:!text-sm sm:!px-6 sm:!py-3">Investors</Link>
-          <a href="/#cta" className="btn btn-primary w-full sm:w-auto text-center !text-xs !px-3 !py-1.5 sm:!text-sm sm:!px-6 sm:!py-3">Get early access</a>
+          <a href="#cta" className="btn btn-primary w-full sm:w-auto text-center !text-xs !px-2 !py-1.5 sm:!text-sm sm:!px-6 sm:!py-3">Get early access</a>
         </div>
       </div>
     </header>
