@@ -14,7 +14,7 @@ export default function Investors() {
         {/* Hero */}
         <section className="section gradient">
           <div className="mx-auto container-tight px-4 text-center">
-            <div className="badge badge-primary mb-6">Pre-Seed Investment Opportunity</div>
+            <div className="badge badge-primary mb-6 inline-block">Pre-Seed Investment Opportunity</div>
             <h1 className="h1 mb-6" style={{ lineHeight: '1.2' }}>$50k for 1% equity<br/>in the future of a $12B industry</h1>
             <p className="p max-w-2xl mx-auto mb-8">
               refpool is disrupting the $12B affiliate marketing industry with instant crypto payouts, 
