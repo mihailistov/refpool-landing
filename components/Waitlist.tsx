@@ -88,10 +88,10 @@ export default function Waitlist() {
               </motion.div>
               <div>
                 <div className="badge badge-primary mb-2">✨ Early Access</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Join the waitlist</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Get early access to RefPool</h3>
                 <p className="text-gray-600 text-lg">
-                  Tell us who you are and how you plan to use refpool.
-                  <span className="font-semibold text-primary-600"> Be among the first</span> to access the platform!
+                  Skip the line and get priority access to the match-making engine.
+                  <span className="font-semibold text-primary-600"> Early users get beta pricing</span> and first pick of top creators!
                 </p>
               </div>
             </div>
@@ -225,7 +225,7 @@ export default function Waitlist() {
                 </motion.button>
 
                 <p className="text-sm text-gray-500 mt-4">
-                  💡 Join 500+ creators and 50+ brands already on the waitlist
+                  🔥 Join 500+ creators and 50+ brands who are tired of waiting 30 days for payouts
                 </p>
               </motion.div>
             </motion.form>
