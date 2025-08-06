@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: 'How are smart incentive deals different?',
-    a: "Instead of flat commission rates, set layered rewards: '$5 per sale + $100 bonus for 20 referrals.' This motivates creators to actually push your links because they see bigger rewards for better performance.",
+    a: "Instead of flat commission rates, we use AI-generated & dynamic incentive rules that adapt to performance. This motivates creators to actually push your links because they see bigger rewards for better performance.",
     icon: '🎯',
     color: 'primary',
   },

@@ -46,7 +46,7 @@ export default function Splits() {
       description: "Skip the Meta and Google ad auction. Get creators to personally recommend your product to their engaged audience. More effective, cheaper, and you only pay for actual results.",
       features: [
         { text: "Fund campaigns with credit card", icon: "💳" },
-        { text: "Set smart bonus structures ($5 + $100 for 20 sales)", icon: "🎯" },
+        { text: "AI-generated & dynamic incentive structures", icon: "🎯" },
         { text: "No upfront costs, pay only for results", icon: "⏰" },
         { text: "Track every conversion in real-time", icon: "📊" }
       ],

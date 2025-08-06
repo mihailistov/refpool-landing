@@ -1,7 +1,7 @@
 export default function ValueProps() {
   const items = [
     { title: "Beats Meta & Google ads", desc: "Creators personally vouch for your product to their audience. Word-of-mouth marketing that actually converts at lower cost." },
-    { title: "Transparent incentives work", desc: "Creators see exactly what they'll earn upfront. No hidden fees, no confusing terms. Clear rewards = motivated promotion." },
+    { title: "AI-generated incentives work", desc: "Dynamic reward structures adapt to performance and market conditions. Creators see exactly what they'll earn upfront. Clear, smart rewards = motivated promotion." },
     { title: "Instant crypto payouts", desc: "The moment a sale is verified, creators get paid in USDC. No 30-day delays, no payment disputes, no trust issues." },
     { title: "Remove all friction", desc: "No outreach, no negotiations, no tracking headaches. Set your deal, creators join, results happen automatically." },
     { title: "Only pay for results", desc: "Zero upfront costs. You only pay when creators drive real sales or signups. Performance-based means risk-free growth." },

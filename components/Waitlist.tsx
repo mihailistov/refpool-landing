@@ -88,7 +88,7 @@ export default function Waitlist() {
               </motion.div>
               <div>
                 <div className="badge badge-primary mb-2">✨ Early Access</div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Get early access to RefPool</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Get early access to refpool</h3>
                 <p className="text-gray-600 text-lg">
                   Skip the line and get priority access to the match-making engine.
                   <span className="font-semibold text-primary-600"> Early users get beta pricing</span> and first pick of top creators!

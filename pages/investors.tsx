@@ -6,7 +6,7 @@ export default function Investors() {
     <>
       <Head>
         <title>Investor Deck — refpool Pre-Seed Round</title>
-        <meta name="description" content="$50k for 1% equity in refpool's pre-seed round. Crypto-native affiliate marketplace disrupting $12B industry." />
+        <meta name="description" content="$50k for 1% equity in refpool's pre-seed round. Match-making engine disrupting $12B performance marketing industry." />
       </Head>
       <main>
         <Nav />
@@ -15,11 +15,11 @@ export default function Investors() {
         <section className="section gradient">
           <div className="mx-auto container-tight px-4 text-center">
             <div className="badge badge-primary mb-6 inline-block">Pre-Seed Investment Opportunity</div>
-            <h1 className="h1 mb-6" style={{ lineHeight: '1.2' }}>$50k for 1% equity<br/>in the future of a $12B industry</h1>
+            <h1 className="h1 mb-6" style={{ lineHeight: '1.2' }}>$50k for 1% equity<br/>in the match-making engine for performance marketing</h1>
             <p className="p max-w-2xl mx-auto mb-8">
-              refpool is disrupting the $12B affiliate marketing industry with instant crypto payouts, 
-              AI-based fraud protection, and global scale. Join us in building the infrastructure that powers 
-              the next generation of performance marketing.
+              refpool is the match-making engine connecting brands with motivated creators through smart,
+              performance-based incentive deals. More effective than Meta/Google ads, cheaper than agencies,
+              with instant crypto payouts that eliminate trust barriers in the $12B performance marketing industry.
             </p>
             <div className="grid md:grid-cols-4 gap-6 max-w-3xl mx-auto">
               <div className="card">
@@ -45,28 +45,28 @@ export default function Investors() {
         {/* Problem */}
         <section className="section">
           <div className="mx-auto container-tight px-4">
-            <h2 className="h2 mb-8 text-center">The $12B Problem We're Solving</h2>
+            <h2 className="h2 mb-8 text-center">The $12B Match-Making Problem</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="card shadow-soft">
-                <h3 className="text-xl font-semibold mb-4">Creators Don't Get Paid</h3>
+                <h3 className="text-xl font-semibold mb-4">Creators Lack Motivation & Trust</h3>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• Painful contract negotiations for each deal</li>
-                  <li>• Complex application processes take weeks</li>
                   <li>• 67% of affiliates wait 30-90 days for payments</li>
+                  <li>• Hidden fees and confusing commission structures</li>
                   <li>• $2.3B in unpaid commissions annually</li>
                   <li>• 43% abandon programs due to payment delays</li>
+                  <li>• No transparent bonus structures to drive performance</li>
                   <li>• International payouts cost 5-15% in fees</li>
                 </ul>
               </div>
               <div className="card shadow-soft">
-                <h3 className="text-xl font-semibold mb-4">Brands Waste Money on Fraud</h3>
+                <h3 className="text-xl font-semibold mb-4">Brands Burn Money on Ineffective Ads</h3>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• Months to find and onboard quality creators</li>
-                  <li>• Difficult to determine ROI on contract negotiations</li>
+                  <li>• Meta/Google ads cost 3x more than word-of-mouth marketing</li>
+                  <li>• Months to find and onboard quality creators manually</li>
                   <li>• $1.4B lost to affiliate fraud annually</li>
-                  <li>• 23% of affiliate traffic is fraudulent</li>
-                  <li>• Manual review processes delay campaigns</li>
-                  <li>• No real-time fraud detection</li>
+                  <li>• No smart incentive structures to motivate creators</li>
+                  <li>• Trust barriers prevent scaling globally</li>
+                  <li>• Pay for impressions/clicks, not actual results</li>
                 </ul>
               </div>
             </div>
@@ -76,23 +76,23 @@ export default function Investors() {
         {/* Solution */}
         <section className="section bg-gray-50">
           <div className="mx-auto container-tight px-4">
-            <h2 className="h2 mb-8 text-center">Our Solution: Innovative & Simple</h2>
+            <h2 className="h2 mb-8 text-center">Our Solution: The Match-Making Engine</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="card">
-                <div className="text-lg font-semibold mb-2">Launch in Minutes</div>
-                <p className="text-gray-600">From startup to enterprise - go live faster than any competitor, locally or globally, with credit card funding.</p>
+                <div className="text-lg font-semibold mb-2">Smart Incentive Deals</div>
+                <p className="text-gray-600">AI-generated & dynamic incentive rules that adapt to performance and market conditions. Motivates creators to actually push products.</p>
               </div>
               <div className="card">
-                <div className="text-lg font-semibold mb-2">Instant Gratification</div>
-                <p className="text-gray-600">Instant payouts, instant incentive for creators. USDC payments in seconds, not weeks. No banks, no delays.</p>
+                <div className="text-lg font-semibold mb-2">Instant Crypto Payouts</div>
+                <p className="text-gray-600">USDC payments in seconds, not weeks. Eliminates trust barriers and motivates creators globally.</p>
               </div>
               <div className="card">
-                <div className="text-lg font-semibold mb-2">Zero Fraud</div>
-                <p className="text-gray-600">Protecting brands & maximizing ROI through AI-powered fraud detection, stopping bad actors before they cost money.</p>
+                <div className="text-lg font-semibold mb-2">Automated Match-Making</div>
+                <p className="text-gray-600">AI connects brands with motivated creators automatically. No outreach, no negotiations, no friction.</p>
               </div>
               <div className="card">
-                <div className="text-lg font-semibold mb-2">Pay for Performance</div>
-                <p className="text-gray-600">Real-time dashboards enable brands to optimize & adjust strategies instantly, only pay for real results and big wins.</p>
+                <div className="text-lg font-semibold mb-2">Results-Only Payment</div>
+                <p className="text-gray-600">Brands only pay for verified conversions. More effective than Meta/Google ads at lower cost.</p>
               </div>
             </div>
           </div>
@@ -106,11 +106,11 @@ export default function Investors() {
               <div className="px-2 sm:px-0">
                 <h3 className="text-xl font-semibold mb-4">Market Size & Growth</h3>
                 <ul className="space-y-3">
-                  <li><strong>TAM:</strong> $12B affiliate marketing industry</li>
-                  <li><strong>SAM:</strong> $3.2B performance marketing segment</li>
-                  <li><strong>SOM:</strong> $180M crypto-native marketing</li>
+                  <li><strong>TAM:</strong> $12B performance marketing industry</li>
+                  <li><strong>SAM:</strong> $3.2B creator-brand match-making segment</li>
+                  <li><strong>SOM:</strong> $180M crypto-native performance marketing</li>
                   <li><strong>Growth:</strong> 47% CAGR through 2028</li>
-                  <li><strong>Drivers:</strong> Creator economy, DeFi adoption, global commerce</li>
+                  <li><strong>Drivers:</strong> Meta/Google ad costs rising, creator economy boom, instant payment demand</li>
                 </ul>
               </div>
               <div className="card shadow-soft">

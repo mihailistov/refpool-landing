@@ -2,7 +2,7 @@ export default function How() {
   const steps = [
     {
       title: "Brands set smart incentive deals",
-      desc: "Create performance-based campaigns with layered rewards: '$5 per sale + $100 bonus for 20 referrals.' Fund with credit card, set spending limits, and let our match-making engine find motivated creators."
+      desc: "Create performance-based campaigns with AI-generated & dynamic incentive rules that adapt to performance. Fund with credit card, set spending limits, and let our match-making engine find motivated creators."
     },
     {
       title: "Creators get matched & motivated",
