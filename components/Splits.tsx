@@ -42,13 +42,13 @@ export default function Splits() {
       type: "brands",
       id: "merchants",
       badge: "For Brands",
-      title: "Launch campaigns that actually work",
-      description: "Set your budget, choose your rewards, and watch top creators drive real sales. Pay only for results that matter to your business.",
+      title: "Stop wasting money on ads that don't convert",
+      description: "Skip the Meta and Google ad auction. Get creators to personally recommend your product to their engaged audience. More effective, cheaper, and you only pay for actual results.",
       features: [
-        { text: "Pay with your credit card", icon: "💳" },
-        { text: "Reward every sale or signup", icon: "🎯" },
-        { text: "Set spending limits & deadlines", icon: "⏰" },
-        { text: "Real-time analytics & reporting", icon: "📊" }
+        { text: "Fund campaigns with credit card", icon: "💳" },
+        { text: "AI-generated & dynamic incentive structures", icon: "🎯" },
+        { text: "No upfront costs, pay only for results", icon: "⏰" },
+        { text: "Track every conversion in real-time", icon: "📊" }
       ],
       gradient: "from-primary-400 to-primary-600",
       bgGradient: "from-primary-50 to-blue-100",
@@ -58,13 +58,13 @@ export default function Splits() {
       type: "creators",
       id: "affiliates",
       badge: "For Creators",
-      title: "Get paid instantly for every sale",
-      description: "Find campaigns you love, share your link, and earn money the moment someone buys. No waiting, no paperwork, no hassle.",
+      title: "Finally, an affiliate program that pays instantly",
+      description: "Tired of waiting 30-90 days for affiliate payouts? Join campaigns with transparent terms, instant crypto payments, and bonus rewards that actually motivate you to promote.",
       features: [
-        { text: "Sign up with email or wallet", icon: "📧" },
-        { text: "See your earnings grow live", icon: "📈" },
-        { text: "Complete payment history", icon: "📋" },
-        { text: "Available worldwide", icon: "🌍" }
+        { text: "Browse campaigns or get invited", icon: "📧" },
+        { text: "Transparent terms, no hidden fees", icon: "📈" },
+        { text: "Instant USDC payouts on every sale", icon: "💰" },
+        { text: "Bonus rewards for hitting targets", icon: "🎁" }
       ],
       gradient: "from-secondary-400 to-secondary-600",
       bgGradient: "from-secondary-50 to-green-100",

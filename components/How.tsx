@@ -1,15 +1,24 @@
 export default function How() {
   const steps = [
-    { title: "Fund big campaigns effortlessly", desc: "Top up budgets infinitely via credit card or USDC. Set high payouts per conversion and watch creators flock to promote your brand." },
-    { title: "Creators earn serious money", desc: "Join campaigns with real payouts, get your unique link, and watch your earnings multiply with every conversion you drive." },
-    { title: "Real incentive, instant payouts", desc: "The moment a conversion is approved, creators get paid instantly. No waiting, no excuses, just immediate rewards for results." }
+    {
+      title: "Brands set smart incentive deals",
+      desc: "Create performance-based campaigns with AI-generated & dynamic incentive rules that adapt to performance. Fund with credit card, set spending limits, and let our match-making engine find motivated creators."
+    },
+    {
+      title: "Creators get matched & motivated",
+      desc: "Browse campaigns or receive invite links. Join instantly with transparent terms. Earn more because you see exactly what you'll make — no hidden fees, no waiting for payments, no trust issues."
+    },
+    {
+      title: "Results happen, payouts are instant",
+      desc: "Every conversion gets tracked and verified. The moment a sale is approved, creators get paid in crypto. Brands only pay for real results. Everyone wins, friction disappears."
+    }
   ];
 
   return (
     <section id="how" className="section">
       <div className="mx-auto container-tight px-4">
-        <h2 className="h2 mb-2 text-center">How it works</h2>
-        <p className="p mb-8 text-center">Launch big. Track everything. Scale fast.</p>
+        <h2 className="h2 mb-2 text-center">How the match-making works</h2>
+        <p className="p mb-8 text-center">Smart incentives meet motivated creators. No outreach, no negotiations, no payment delays.</p>
         <div className="grid md:grid-cols-3 gap-6">
           {steps.map((s, i) => (
             <div key={i} className="card shadow-soft">
