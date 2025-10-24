@@ -1,8 +1,9 @@
 import type { AppProps } from "next/app";
+import { SessionProvider } from "next-auth/react";
 import Head from "next/head";
 import "@/styles/globals.css";
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   return (
     <>
       <Head>
@@ -41,7 +42,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           }}
         />
       </Head>
-      <Component {...pageProps} />
+      <SessionProvider session={session}>
+        <Component {...pageProps} />
+      </SessionProvider>
     </>
   );
 }
